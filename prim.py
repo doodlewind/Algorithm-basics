@@ -27,7 +27,6 @@ class MST:
             if node in self.unvisited:
                 return node
 
-
 if __name__ == '__main__':
     test_graph = {
        'A': {'B': 7, 'D': 5},
